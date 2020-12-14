@@ -1,0 +1,357 @@
+/*GENERAL*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        height: 100vh;
+        width: 100%;
+    }
+    body {
+        font-family: 'Roboto', Arial, Helvetica,  sans-serif;
+        background-color: #BF8B2E;
+    }
+    h1 {
+        color: white;
+        font-family:  'Oswald', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10%;
+    }
+    h1.cta {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    h2, h3, h4 {
+        font-family:  'Oswald', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        color: white;
+        padding: 0.2em;
+        padding: 0.2em 0.2em 1em 0.2em;
+    }
+
+    .main h2 {
+        padding: 1em 0.2em 0.2em 0.2em;
+    }
+    #food {
+        padding-top: 4em;
+    }
+
+    p {
+        color: white;
+        padding: 0.2em 0.2em 2em 2em;
+        width: auto;
+    }
+
+    ul li {
+        color: white;
+        padding: 0.2em 0.2em 1em 0.2em;
+    }
+    blockquote {
+        font-family: 'Roboto', Arial, Helvetica,  sans-serif;
+        color: white;
+
+        font-size: 1.2em;
+        text-indent: 2em;
+        padding: 0 0 2em 2em;
+    }
+    #case-two {
+        padding-top: 20%;
+    }
+    .ntnu img {
+        max-width: 40%;
+        background-color: white;
+        padding: 1% 1% 1% 5%;
+    }
+    .bold {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    p.highligthed {
+        font-size: 2em;
+        font-family:  'Oswald', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    a.cta {
+        margin: 0 0 5% 10%;
+        padding: 2%;
+        display: inline-block;
+        color: #BF8B2E;
+
+        background-color: white;
+        border-radius: 1em;
+        text-decoration: none;
+    }
+    .main-cta {
+        width: 80%;
+        padding: 4em;
+
+    }
+    .main-cta ul li{
+        text-decoration: none;
+        display: block;
+        padding: 2em;
+    }
+    .main-cta li{
+        padding: 4em;
+
+    }
+    .main-cta h3{
+        padding: 5% 0 0 0;
+    }
+    img.farm {
+        max-width: 100%;
+    }
+
+/*GENERAL END*/
+/*FLEX MAIN*/
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .main {
+
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .case-one {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+
+    }
+    .case-two {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+
+    }
+/*FLEX MAIN END*/
+
+/*FLEX MIN*/
+    .global {
+        font-weight: lighter;
+        padding-left: 1.6em;
+    }
+    .actions {
+        list-style: none;
+        font-size: 2em;
+        padding-left: 20%;
+        font-family:  'Oswald', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+/*FLEX MIN END*/
+
+
+/*FOOTER*/
+    footer {
+        margin-top: 5%;
+        background-color: #333;
+        padding-left: 0.2em;
+    }
+    address {
+        color: lightgray;
+        padding: 1% 4%;
+    }
+/*FOOTER END*/
+
+
+
+/*NAV BAR*/
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        min-height: 8vh;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    .here {
+        color: #BF8B2E;
+        background-color: #222;
+        padding: 1em;
+    }
+    .logo {
+        padding: 1% 1em;
+        max-width: 15vh;
+        height: 6vh;
+        display: inline-block;
+
+    }
+    nav li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.7em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: 0 1em 0 1em ;
+    }
+    nav li a:hover {
+        color: #BF8B2E;
+        background-color: #222;
+        padding: 1em;
+        transition: 0.5s;
+    }
+/*NAV BAR END*/
+
+
+
+/*BANNER*/
+    .banner {
+        background-image: url(assets/img/head-garbage.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .banner-cta {
+        background-image: url(assets/img/house-landscape-01.png);
+        background-size: cover;
+        background-position: center center;
+    }
+/*BANNER END*/
+
+
+/*INFOGRAPHICS*/
+    .el-info {
+        display: flex;
+        font-family:  'Oswald', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .eigthy {
+        font-size: 2em;
+        padding: 0.5em 0;
+        width: 80%;
+        background-color: tomato;
+
+    }
+    .twenty {
+        padding: 1em 0;
+        width: 20%;
+        background-color: seagreen;
+    }
+/*INFOGRAPHICS END*/
+
+
+
+/*SOURCES*/
+    .sources {
+        list-style: none;
+
+        text-indent: 2em;
+        font-style: italic;
+    }
+    li a {
+        color: white;
+        font-size: 0.6em;
+        text-indent: 4em;
+        list-style: none;
+    }
+/*SOURCES END*/
+
+
+/*FORM*/
+    .form {
+        padding-left: 5%;
+    }
+    label {
+        padding-left: 5%;
+        font-family:  'Roboto', Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bolder;
+        display: block;
+        padding-top: 2%;
+    }
+    option {
+        display: block;
+        text-indent: 10%;
+    }
+    .submit {
+        margin-top: 10%;
+        margin-bottom: 20%;
+        display: block;
+    }
+/*FORM END*/
+
+
+/*MEDIA*/
+    @media only screen and (max-width: 600px){
+        .row {
+            display: block;
+            width: 90%;
+        }
+        .logo {
+            display: none;
+        }
+        nav li a {
+            text-align: center;
+            width: 100%;
+
+        }
+        nav ul li a {
+            display: block;
+            padding: 1em;
+        }        
+        .el-info {
+            font-family:  'Oswald', Arial, Helvetica, sans-serif;
+        }
+        .eigthy {
+            text-align: center;
+            padding: 0.5em 0;
+            width: 80%;
+            background-color: tomato;
+        }
+        .twenty {
+            text-align: center;
+            padding: 1em 0;
+            width: 20%;
+            background-color: seagreen;
+        }
+    }
+
+/*MEDIA END*/
+
+
+/*LINKED FONTS*/
+@font-face {
+    font-family: 'Oswald';
+    src: url(assets/fonts/Oswald-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(assets/fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto-italic';
+    src: url(assets/fonts/Roboto-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(assets/fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+/*LINKED FONTS END*/
+
+
